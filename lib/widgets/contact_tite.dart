@@ -40,17 +40,17 @@ class ContacteTite extends StatelessWidget {
                               contact.name,
                               style: TextStyle(fontWeight: FontWeight.bold),
                             ),
-                            Expanded(child: Container()),
-                            Text(
-                              contact.date,
-                              style: TextStyle(color: Colors.blue),
-                            )
+                            // Expanded(child: Container()),
+                            // Text(
+                            //   contact.date,
+                            //   style: TextStyle(color: Colors.blue),
+                            // )
                           ],
                         ),
                         //),
-                        Text(
-                          contact.desc,
-                        ),
+                        // Text(
+                        //   contact.desc,
+                        // ),
                       ],
                     ),
                   ),
